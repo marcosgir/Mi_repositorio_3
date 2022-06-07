@@ -1,0 +1,96 @@
+footer
+{
+    background-color: $color_footer;
+    width: 100%;
+    grid-area: pie;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: space-around;
+
+    .contacto1
+    {
+        align-items: center;
+        position: relative;
+        font-size: 1.3rem;
+        color: $texto_footer;
+        font-family:$fuente;
+    }
+
+    .contacto2
+    {
+        align-items: center;
+        position: relative;
+        font-size: 1.3rem;
+        font-family:$fuente;
+        color: $texto_footer;
+    }
+
+    .contacto3
+    {
+        align-items: center;
+        position: relative;
+        font-size: 1.3rem;
+        font-family:$fuente;
+        color: $texto_footer;
+    }
+
+    .logo_reducido
+    {
+        height: 40px;
+        margin:0.3%;
+        position: relative;
+    }
+
+    .social
+    {
+        display: flex;
+        position: relative;
+        align-items: center;
+        font-size: 1.3rem;
+        color: $texto_footer;
+        font-family:$fuente;
+    }
+
+    .redes1 
+    {
+        height: 30px;
+        margin: 5px;
+        position: relative;
+        left: 50%;
+    }
+
+    .redes2 
+    {
+        height: 30px;
+        position: relative;
+        left: 100%;
+    }
+
+}
+
+@media screen and (max-width: 900px)
+{
+    .contacto1
+        {
+            display:none;
+        }
+}
+
+@media screen and (max-width: 900px)
+{
+    .contacto2
+        {
+            display:none;
+        }
+}
+
+@media screen and (max-width: 900px)
+{
+    .contacto3
+        {
+            display:none;
+        }
+}

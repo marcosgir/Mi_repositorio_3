@@ -1,0 +1,33 @@
+@import "variables";
+
+@import "header";
+
+@import "section";
+
+@import "footer";
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+*
+p
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#grid-area
+{
+    display:grid;
+    gap: 0px;
+    min-height: 100vh;
+    width: 100%;
+    grid-template-areas: 
+        "logo"
+        "body"
+        "pie";
+     grid-template-rows: 0fr 1fr 0fr;
+}
+

@@ -1,0 +1,221 @@
+.header {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo_1 {
+  height: 40px;
+}
+
+.header .navbar > .container, .header .navbar > .container-fluid, .header .navbar > .container-lg, .header .navbar > .container-md, .header .navbar > .container-sm, .header .navbar > .container-xl, .header .navbar > .container-xxl {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header .navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.header .menu {
+  position: absolute;
+  right: 15%;
+  font-size: 13px;
+  top: 35%;
+}
+
+@media screen and (max-width: 750px) {
+  header .menu {
+    position: absolute;
+    right: 5%;
+    top: 4%;
+  }
+}
+
+section {
+  background-image: url(../Imagenes/background.jpg);
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: body;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: -webkit-min-content;
+  min-height: -moz-min-content;
+  min-height: min-content;
+}
+
+section .titulo {
+  color: red;
+  font-size: calc(0.5em + 1.5vw);
+  padding: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section .parrafo {
+  color: white;
+  font-size: calc(0.8em + 0.8vw);
+  padding: 40px;
+  font-family: "Times New Roman", Times, serif;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+section .video {
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(85vw);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer {
+  background-color: #343131;
+  width: 100%;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: pie;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .contacto1 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 1.3rem;
+  color: #bcbbb8;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer .contacto2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #bcbbb8;
+}
+
+footer .contacto3 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 1.3rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #bcbbb8;
+}
+
+footer .logo_reducido {
+  height: 40px;
+  margin: 0.3%;
+  position: relative;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.3rem;
+  color: #bcbbb8;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer .redes1 {
+  height: 30px;
+  margin: 5px;
+  position: relative;
+  left: 50%;
+}
+
+footer .redes2 {
+  height: 30px;
+  position: relative;
+  left: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .contacto1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contacto2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .contacto3 {
+    display: none;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#grid-area {
+  display: -ms-grid;
+  display: grid;
+  gap: 0px;
+  min-height: 100vh;
+  width: 100%;
+      grid-template-areas: "logo" "body" "pie";
+  -ms-grid-rows: 0fr 1fr 0fr;
+      grid-template-rows: 0fr 1fr 0fr;
+}
+/*# sourceMappingURL=main.css.map */

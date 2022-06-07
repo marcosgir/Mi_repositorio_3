@@ -1,0 +1,35 @@
+section
+{
+    background-image:url(../Imagenes/background.jpg); 
+    grid-area: body;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: min-content;
+
+    .titulo
+    {
+        color:$color_titulo;
+        font-size: calc(0.5em + 1.5vw);
+        padding: 30px;
+        font-family:$fuente;
+    }
+
+    .parrafo
+    {
+        color:$color_section;
+        font-size: calc(0.8em + 0.8vw);
+        padding: 40px;
+        font-family:$fuente;
+        align-content: center;
+    }
+
+    .video
+    {
+        padding: 20px;
+        display: flex;
+        width:calc(85vw);
+        justify-content: center;
+    }
+
+}
